@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Concesionario from "./../imgs/concesionario.png";
+import todoApp from "./../imgs/todoApp.png";
 
 const ProjectLinks = () => {
   return (
@@ -14,7 +15,7 @@ const ProjectLinks = () => {
         </Link>
         <Link to="/todoApp">
           <article>
-            <img src={Concesionario} alt="" />
+            <img src={todoApp} alt="" />
             <h3>Todo App</h3>
           </article>
         </Link>

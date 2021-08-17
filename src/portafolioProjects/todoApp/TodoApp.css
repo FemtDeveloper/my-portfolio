@@ -1,0 +1,15 @@
+.todoApp-container {
+  display: flex;
+  align-content: center;
+  background-color: #eb4652;
+  min-height: 100vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .todoApp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
