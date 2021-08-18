@@ -4,9 +4,15 @@
   width: 100%;
   padding-top: 20px;
   color: rgb(172, 172, 172);
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(75, 75, 75);
-  text-align: center;
+  align-items: center;
+}
+.fixed-profiled--container {
+  position: fixed;
+  background-color: rgb(68, 68, 68);
+  padding: 30px 30px 50px;
+  border-radius: 3px;
 }
 .profilePicture {
   width: 80%;
@@ -35,7 +41,7 @@
 
 @media screen and (min-width: 540px) {
   .profile-container {
-    border-right: solid grey 2px;
+    border-right: solid rgb(89, 166, 255) 2px;
     padding: 30px 10px;
     width: 70%;
     max-width: 340px;

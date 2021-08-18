@@ -7,12 +7,15 @@ const ProjectLinks = () => {
   return (
     <>
       <div className="projects-container">
-        <Link to="/concesionario">
+        <a
+          href="https://femtdeveloper.github.io/concesionario/"
+          target="_blank"
+        >
           <article>
             <img src={Concesionario} alt="" />
             <h3>Concesionario</h3>
           </article>
-        </Link>
+        </a>
         <Link to="/todoApp">
           <article>
             <img src={todoApp} alt="" />

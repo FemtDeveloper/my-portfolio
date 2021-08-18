@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectLinks from "../ProjectLinks";
-import Projects from "../projects/Projects";
 import "./Content.css";
 
 const Content = () => {
@@ -8,7 +7,6 @@ const Content = () => {
     <div className="content-container">
       <div className="about-container">
         <h2>About me</h2>
-        <hr />
         <p>
           I'm a Web Developer focused in Front End Development. I'm an
           enthusiast for work and learning everything about this. I want to grow
@@ -16,8 +14,8 @@ const Content = () => {
         </p>
       </div>
       <div className="skill-container">
-        <h2>Habilities</h2>
         <hr />
+        <h2>Habilities</h2>
         <ul>
           <li>Teamwork</li>
           <li>Responsable</li>
@@ -25,6 +23,7 @@ const Content = () => {
           <li>Fast Learning</li>
           <li>Dedication</li>
         </ul>
+        <hr />
       </div>
       <ProjectLinks />
     </div>
