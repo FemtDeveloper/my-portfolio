@@ -9,7 +9,6 @@
   align-items: center;
 }
 .fixed-profiled--container {
-  position: fixed;
   background-color: rgb(68, 68, 68);
   padding: 30px 30px 50px;
   border-radius: 3px;

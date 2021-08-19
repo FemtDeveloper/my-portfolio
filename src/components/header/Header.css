@@ -1,0 +1,7 @@
+.header-container {
+  height: 80vh;
+  width: 100%;
+  background-image: url(../../imgs/john-petalcurin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

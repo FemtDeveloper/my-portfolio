@@ -1,8 +1,26 @@
 .navbar-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 30px;
   width: 100%;
   height: 60px;
-  background-color: white;
+  background-color: #ff006a26;
+}
+.navbar-container img {
+  width: 60px;
+}
+.link {
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.link:hover {
+  border-bottom: yellow solid 2px;
+  background-color: rgba(221, 43, 141, 0.397);
 }
