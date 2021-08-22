@@ -1,11 +1,12 @@
 import React from "react";
+import { StickyContainer } from "react-sticky";
 import ProjectLinks from "../ProjectLinks";
 import "./Content.css";
 
 const Content = () => {
   return (
     <div className="content-container">
-      <div className="about-container">
+      <div className="about-container" id="about">
         <h2>About me</h2>
         <p>
           I'm a Web Developer focused in Front End Development. I'm an
@@ -13,7 +14,7 @@ const Content = () => {
           up in knowledge
         </p>
       </div>
-      <div className="skill-container">
+      <div className="skill-container" id="skills">
         <hr />
         <h2>Habilities</h2>
         <ul>
@@ -25,13 +26,15 @@ const Content = () => {
         </ul>
         <hr />
       </div>
-      <ProjectLinks />
+      <div id="portfolio">
+        <ProjectLinks />
+      </div>
       <div>
-        Iconos diseñados por{" "}
+        Iconos diseñados por
         <a href="https://www.freepik.com" title="Freepik">
           Freepik
-        </a>{" "}
-        from{" "}
+        </a>
+        from
         <a href="https://www.flaticon.es/" title="Flaticon">
           www.flaticon.es
         </a>

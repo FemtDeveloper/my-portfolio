@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import TodoApp from "./portafolioProjects/todoApp/TodoApp";
-import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import Header from "./components/header/Header";
 

@@ -1,7 +1,52 @@
 .header-container {
-  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
   width: 100%;
   background-image: url(../../imgs/john-petalcurin.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+  font-size: 24px;
+}
+.header-container--title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 200px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.233);
+}
+.header-container--title h2 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navlinks-mobile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  background-color: #002398e8;
+  text-align: center;
+}
+.navlinks-mobile a {
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+@media screen and (min-width: 540px) {
+  .navlinks-mobile {
+    display: none;
+  }
 }

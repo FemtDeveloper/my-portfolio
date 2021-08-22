@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
   padding: 0 30px;
   width: 100%;
   height: 60px;
@@ -10,6 +9,13 @@
 }
 .navbar-container img {
   width: 60px;
+  margin-top: 5px;
+}
+.navbar-container i {
+  z-index: 1;
+}
+.links-container {
+  display: none;
 }
 .link {
   padding: 20px;
@@ -23,4 +29,15 @@
 .link:hover {
   border-bottom: yellow solid 2px;
   background-color: rgba(221, 43, 141, 0.397);
+}
+@media screen and (min-width: 540px) {
+  .navbar-container {
+    justify-content: space-between;
+  }
+  .links-container {
+    display: flex;
+  }
+  .menu-icon {
+    display: none;
+  }
 }

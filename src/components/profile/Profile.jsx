@@ -19,6 +19,18 @@ const Profile = () => {
         <h5>Residence City: Bogota, Col</h5>
         <h5>Email: feedmite@hotmail.com</h5>
         <h5>Tel: 3507107300</h5>
+        <h5>
+          Github:{" "}
+          <a href="https://github.com/FemtDeveloper" target="_blank">
+            https://github.com/FemtDeveloper
+          </a>
+        </h5>
+        <h5>
+          LinkedIn:{" "}
+          <a href="www.linkedin.com/in/fmirandat" target="_blank">
+            www.linkedin.com/in/fmirandat
+          </a>
+        </h5>
       </div>
     </div>
   );

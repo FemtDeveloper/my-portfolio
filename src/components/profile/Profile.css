@@ -31,6 +31,10 @@
   font-size: 22px;
   margin-bottom: 20px;
 }
+.fixed-profiled--container a {
+  color: #fff;
+  text-decoration: none;
+}
 
 .profile-container h5 {
   margin: 10px;
