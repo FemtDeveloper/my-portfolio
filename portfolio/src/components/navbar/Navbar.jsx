@@ -15,7 +15,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </Link>
       <div className="menu-icon" onClick={handlerClick}>
-        <i className={!showMobile ? "fas fa-times-circle" : "fas fa-bars"}></i>
+        <i className={showMobile ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
       {showMobile && <MobileNavbar />}
       <div className="links-container">

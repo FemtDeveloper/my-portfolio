@@ -27,10 +27,15 @@ h2 {
   margin-bottom: 20px;
   border-radius: 10px;
 }
+.projects-container article {
+  width: 80%;
+  margin: 0 auto;
+}
 
 @media screen and (min-width: 540px) {
   .projects-container {
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
   }
 }
