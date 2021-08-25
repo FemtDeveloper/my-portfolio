@@ -1,13 +1,20 @@
+import { motion } from "framer-motion";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./MobileNavbar.css";
 
 const MobileNavbar = () => {
   return (
-    <div className="mobile-navbar">
-      <a href="">Home</a>
+    <motion.div
+      className="mobile-shortcuts"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 2.5 }}
+    >
+      <Link to="/">Home</Link>
       <a href="#portfolio">Portfolio</a>
       <a href="">Contact</a>
-    </div>
+    </motion.div>
   );
 };
 

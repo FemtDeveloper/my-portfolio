@@ -35,6 +35,19 @@
   font-size: 20px;
   font-weight: 400;
 }
+.addTodo-container a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #313131;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+.addTodo-container a:hover {
+  background-color: white;
+  color: #313131;
+}
 
 .btn-addTodo {
   width: 90%;
@@ -47,9 +60,26 @@
   border: white solid 1.5px;
   color: white;
 }
+.btn-addTodo:hover {
+  background-color: white;
+  color: rgb(0, 132, 255);
+}
 
 .addTodo-container--textarea:focus {
   border: none;
+}
+
+.link-appTodo {
+  position: relative;
+  background-color: #d4d4d4c4;
+  color: white;
+  max-width: 150px;
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+  line-height: 28px;
 }
 
 .noTodos {

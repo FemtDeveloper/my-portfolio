@@ -1,7 +1,8 @@
+import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 import { saveTodo } from "../../features/todoSlice";
-import TodoList from "../todoList/TodoList";
 import "./AddTodo.css";
 
 const initialFormValues = {
@@ -39,7 +40,10 @@ const AddTodo = () => {
     }
   };
   return (
-    <div className="addTodo">
+    <motion.div
+      className="addTodo"
+      exit={{ x: "-100vh", transition: { ease: "easeInOut" } }}
+    >
       <div className="addTodo-container">
         <h2>Add Todo</h2>
         {error && (
@@ -66,8 +70,11 @@ const AddTodo = () => {
         <button onClick={add} className="btn-addTodo">
           Add
         </button>
+        <Link to="/" href="#top">
+          Home
+        </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

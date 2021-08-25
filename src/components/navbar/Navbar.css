@@ -1,3 +1,22 @@
+.mobile-navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 255px;
+  width: 90%;
+  background-color: rgb(60 34 103 / 55%);
+}
+.mobile-navbar a {
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 18px;
+}
+.mobile-navbar a:hover {
+  background-color: #e000439f;
+}
+
 .navbar-container {
   display: flex;
   align-items: center;

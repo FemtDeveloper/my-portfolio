@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
 import Concesionario from "./../imgs/concesionario.png";
@@ -13,16 +14,17 @@ const ProjectLinks = () => {
           href="https://femtdeveloper.github.io/concesionario/"
           target="_blank"
         >
-          <article>
+          <motion.article whileHover={{ scale: 1.05 }}>
             <img src={Concesionario} alt="" />
             <h3>Concesionario</h3>
-          </article>
+          </motion.article>
         </a>
         <Link to="/todoApp">
-          <article>
+          <motion.article whileHover={{ scale: 1.05 }}>
+            {" "}
             <img src={todoApp} alt="" />
             <h3>Todo App</h3>
-          </article>
+          </motion.article>
         </Link>
       </div>
     </>

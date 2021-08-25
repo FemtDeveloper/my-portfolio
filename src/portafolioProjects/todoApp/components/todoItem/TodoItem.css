@@ -13,7 +13,7 @@
 .todo-container h1 {
   display: flex;
   align-self: flex-start;
-  margin: 20px;
+  margin: 10px;
   color: #2f8efc;
 }
 .todo-container p {

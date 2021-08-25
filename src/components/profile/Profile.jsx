@@ -1,16 +1,18 @@
 import React from "react";
 import "./Profile.css";
 import profilePicture from "./../../imgs/profilePicture.jpeg";
+import { motion } from "framer-motion";
 
 const Profile = () => {
   return (
     <div className="profile-container">
       <div className="fixed-profiled--container">
         <figure>
-          <img
+          <motion.img
             src={profilePicture}
             alt="profile picture"
             className="profilePicture"
+            whileHover={{ scale: 1.2 }}
           />
         </figure>
         <h2 className="profileName">Felix E Miranda T</h2>
@@ -19,18 +21,32 @@ const Profile = () => {
         <h5>Residence City: Bogota, Col</h5>
         <h5>Email: feedmite@hotmail.com</h5>
         <h5>Tel: 3507107300</h5>
-        <h5>
+        <motion.h5
+          whileHover={{ scale: 1.2 }}
+          transition={{ type: "spring", stiffness: 120 }}
+        >
           Github:{" "}
-          <a href="https://github.com/FemtDeveloper" target="_blank">
+          <motion.a
+            href="https://github.com/FemtDeveloper"
+            target="_blank"
+            whileHover={{ color: "rgb(0,0,255)" }}
+          >
             https://github.com/FemtDeveloper
-          </a>
-        </h5>
-        <h5>
+          </motion.a>
+        </motion.h5>
+        <motion.h5
+          whileHover={{ scale: 1.2 }}
+          transition={{ type: "spring", stiffness: 300 }}
+        >
           LinkedIn:{" "}
-          <a href="www.linkedin.com/in/fmirandat" target="_blank">
+          <motion.a
+            href="www.linkedin.com/in/fmirandat"
+            target="_blank"
+            whileHover={{ color: "rgb(0,0,255)" }}
+          >
             www.linkedin.com/in/fmirandat
-          </a>
-        </h5>
+          </motion.a>
+        </motion.h5>
       </div>
     </div>
   );

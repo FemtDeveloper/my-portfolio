@@ -1,12 +1,15 @@
 import React from "react";
-import { StickyContainer } from "react-sticky";
 import ProjectLinks from "../ProjectLinks";
 import "./Content.css";
 
 const Content = () => {
   return (
     <div className="content-container">
+      <div id="portfolio">
+        <ProjectLinks />
+      </div>
       <div className="about-container" id="about">
+        <hr />
         <h2>About me</h2>
         <p>
           I'm a Web Developer focused in Front End Development. I'm an
@@ -25,9 +28,6 @@ const Content = () => {
           <li>Dedication</li>
         </ul>
         <hr />
-      </div>
-      <div id="portfolio">
-        <ProjectLinks />
       </div>
     </div>
   );

@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
 import TodoApp from "./portafolioProjects/todoApp/TodoApp";
 import Home from "./components/home/Home";
 import Header from "./components/header/Header";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
+  const location = useLocation();
   return (
     <div className="App">
-      <Router>
-        <Header />
-        <Switch>
+      <Header />
+      <AnimatePresence exitBeforeEnter>
+        <Switch location={location} key={location.key}>
           <Route path="/todoApp">
             <TodoApp />
           </Route>
@@ -18,7 +20,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </Router>
+      </AnimatePresence>
     </div>
   );
 }
