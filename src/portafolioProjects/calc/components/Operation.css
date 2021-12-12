@@ -1,0 +1,106 @@
+.button {
+  width: 40px;
+  height: 60px;
+  background-color: #35003c;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-bottom: #490152 5px solid;
+}
+.operations-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+}
+main .light {
+  background-color: #e1e1e1;
+}
+.light button,
+.light input {
+  background-color: #686868;
+  color: #1a1a1a;
+}
+.btn-container {
+  display: flex;
+  width: 100%;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  min-height: 45px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #35003c;
+}
+
+.result-container input {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  text-align: end;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
+.result-container textarea {
+  background-color: transparent;
+  width: 100%;
+  text-align: end;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+  resize: none;
+}
+
+.result-container .result {
+  text-align: start;
+}
+.btn_operators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  min-width: 50px;
+}
+.btn_numbers {
+  display: flex;
+}
+.buttons_numbers-container {
+  width: 100%;
+}
+.numbers {
+  width: 25%;
+  margin: 5px 5px;
+}
+.clear {
+  background-color: rgb(223, 8, 8);
+  width: 25%;
+  margin-left: 10px;
+}
+
+.btn-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.operations {
+  width: 100%;
+  max-width: 60px;
+}
+.btn-bottom .operations {
+  min-width: 90px;
+}
+@media screen and (min-width: 680px) {
+  .numbers {
+    width: 29%;
+  }
+  .btn-bottom .operations {
+    min-width: 220px;
+  }
+}

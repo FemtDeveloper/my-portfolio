@@ -26,6 +26,13 @@ const ProjectLinks = () => {
             <h3>Todo App</h3>
           </motion.article>
         </Link>
+        <Link to="/calc">
+          <motion.article whileHover={{ scale: 1.05 }}>
+            {" "}
+            <img src={todoApp} alt="" />
+            <h3>Calculator</h3>
+          </motion.article>
+        </Link>
       </div>
     </>
   );
