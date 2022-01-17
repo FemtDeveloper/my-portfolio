@@ -12,6 +12,10 @@
   align-items: center;
   font-family: "Roboto", sans-serif;
 }
+.vector {
+  color: #fff;
+  font-size: 10px;
+}
 
 @media screen and (min-width: 540px) {
   .App {

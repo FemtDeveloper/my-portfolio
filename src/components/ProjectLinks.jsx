@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
-import Concesionario from "./../imgs/concesionario.png";
-import todoApp from "./../imgs/todoApp.png";
+import Concesionario from "./../imgs/concesionario.jpg";
+import todoApp from "./../imgs/todoapp.jpg";
+import calculadora from "./../imgs/calculadora.png";
 import "./ProjectLinks.css";
 
 const ProjectLinks = () => {
@@ -29,7 +30,7 @@ const ProjectLinks = () => {
         <Link to="/calc">
           <motion.article whileHover={{ scale: 1.05 }}>
             {" "}
-            <img src={todoApp} alt="" />
+            <img src={calculadora} alt="" />
             <h3>Calculator</h3>
           </motion.article>
         </Link>

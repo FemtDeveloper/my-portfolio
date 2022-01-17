@@ -15,6 +15,10 @@
   min-width: 40px;
   color: #727272;
 }
+.toHome:hover {
+  color: #c0c0c0;
+  transform: scale(1.2);
+}
 
 .Calc {
   margin: 0 auto;

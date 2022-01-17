@@ -9,7 +9,8 @@ const Home = () => {
     hover: {
       scale: 1.1,
       transition: {
-        yoyo: Infinity,
+        repeat: Infinity,
+        repeatType: "reverse",
         duration: 0.3,
       },
     },
