@@ -21,7 +21,7 @@ const ContactForm = () => {
   };
   return (
     <>
-      <div className="contact-container container">
+      <div className="contact-container container" id="contact">
         <h1>Contact me</h1>
         <form onSubmit={sendEmail}>
           <label htmlFor="name">Name</label>

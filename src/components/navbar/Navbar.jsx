@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="mobile-navbar" onClick={handlerClick}>
           <Link to="/">Home</Link>
           <a href="#portfolio">Portfolio</a>
-          <a href="">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
       )}
       <motion.div
@@ -59,9 +59,9 @@ const Navbar = () => {
         <a href="#portfolio" className="link">
           Projects
         </a>
-        <Link to="/" className="link">
+        <a href="#contact" className="link">
           Contact
-        </Link>
+        </a>
       </motion.div>
     </div>
   );
