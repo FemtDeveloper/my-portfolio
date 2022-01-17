@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../contact/ContactForm";
 import ProjectLinks from "../ProjectLinks";
 import "./Content.css";
 
@@ -29,6 +30,7 @@ const Content = () => {
         </ul>
         <hr />
       </div>
+      <ContactForm />
     </div>
   );
 };
