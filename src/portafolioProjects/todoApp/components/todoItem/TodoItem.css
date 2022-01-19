@@ -4,9 +4,9 @@
   justify-content: space-around;
   width: 90%;
   min-height: 180px;
-  background-color: white;
+  background-color: #02015edb;
   border: solid 2px rgb(133, 133, 133);
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 10px;
   margin-bottom: 25px;
 }
@@ -14,15 +14,18 @@
   display: flex;
   align-self: flex-start;
   margin: 10px;
-  color: #2f8efc;
+  color: #8f92d6;
 }
 .todo-container p {
   text-align: center;
-  margin: 20px 30px 30px;
+  margin: 10px;
   font-size: 18px;
   font-weight: 600;
   word-break: break-word;
-  color: rgb(80, 80, 80);
+  color: #e7e7e7;
+}
+.todo-container hr {
+  margin: 0;
 }
 
 .btn-container {
@@ -32,27 +35,27 @@
 
 .btn {
   border-radius: 5px;
-  color: white;
+  color: #ffffff;
   padding: 5px 10px;
   margin: 20px 5px 0;
   font-weight: 600;
   font-size: 16px;
 }
 .done {
-  background-color: rgb(42, 190, 42);
+  background-color: #2abe2a;
   border: none;
 }
 .notDone {
-  background-color: white;
-  color: green;
-  border-color: green;
+  background-color: #ffffff;
+  color: #008000;
+  border-color: #008000;
 }
 .remove {
-  background-color: rgb(245, 72, 60);
+  background-color: #f5483c;
   border: none;
 }
 .edit {
-  background-color: rgb(16, 128, 255);
+  background-color: #1080ff;
   border: none;
 }
 

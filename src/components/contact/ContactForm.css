@@ -1,12 +1,12 @@
 .contact-container {
-  width: 80%;
+  width: 90%;
   border: blue;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3X1u-yJx9B64JWq4T0z6T9weLRv_8HoAuRQ&usqp=CAU");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 20px;
 }
 .contact-container form {
@@ -19,4 +19,13 @@
 }
 .contact-container label {
   color: #fff;
+  margin: 5px;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 540px) {
+  .contact-container {
+    width: 75%;
+    padding: 30px;
+  }
 }

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
+import { AiFillHome } from "react-icons/ai";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { saveTodo } from "../../features/todoSlice";
@@ -11,6 +12,7 @@ const initialFormValues = {
 };
 
 const AddTodo = () => {
+  const currentDate = new Date().toDateString();
   const [formValues, setFormValues] = useState(initialFormValues);
   const { title, description } = formValues;
   const [error, setError] = useState(false);
@@ -44,8 +46,12 @@ const AddTodo = () => {
       className="addTodo"
       exit={{ x: "-100vh", transition: { ease: "easeInOut" } }}
     >
+      <Link to="/" href="#top">
+        <AiFillHome className="toHome" />
+      </Link>
       <div className="addTodo-container">
-        <h2>Add Todo</h2>
+        <h2 className="date">{currentDate}</h2>
+        <h2>My tasks</h2>
         {error && (
           <h3 className="noTodos">You must add a title and description</h3>
         )}
@@ -70,9 +76,6 @@ const AddTodo = () => {
         <button onClick={add} className="btn-addTodo">
           Add
         </button>
-        <Link to="/" href="#top">
-          Home
-        </Link>
       </div>
     </motion.div>
   );
