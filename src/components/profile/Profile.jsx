@@ -40,7 +40,7 @@ const Profile = () => {
         >
           LinkedIn:{" "}
           <motion.a
-            href="www.linkedin.com/in/fmirandat"
+            href="https://www.linkedin.com/in/fmirandat/"
             target="_blank"
             whileHover={{ color: "rgb(0,0,255)" }}
           >

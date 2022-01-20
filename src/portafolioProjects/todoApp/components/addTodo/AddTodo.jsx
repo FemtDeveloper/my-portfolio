@@ -68,7 +68,7 @@ const AddTodo = () => {
           value={description}
           id=""
           cols="30"
-          rows="5"
+          rows="3"
           placeholder="Description"
           onChange={handleInputChanges}
           className="addTodo-container--textarea"

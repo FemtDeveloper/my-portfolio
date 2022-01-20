@@ -2,27 +2,27 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 90%;
-  min-height: 180px;
+  position: relative;
+  width: 100%;
   background-color: #02015edb;
-  border: solid 2px rgb(133, 133, 133);
-  border-radius: 10px;
-  padding: 10px;
+  border: solid 2px #2229f7ed;
+  border-radius: 5px;
   margin-bottom: 25px;
 }
 .todo-container h1 {
   display: flex;
   align-self: flex-start;
   margin: 10px;
-  color: #8f92d6;
+  font-weight: 800;
+  color: #e7e7e7;
 }
 .todo-container p {
   text-align: center;
   margin: 10px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
   word-break: break-word;
-  color: #e7e7e7;
+  color: #b6b8dc;
 }
 .todo-container hr {
   margin: 0;
@@ -31,15 +31,21 @@
 .btn-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  padding-top: 10px;
+  border-top: solid #0000ff 2px;
 }
 
 .btn {
   border-radius: 5px;
   color: #ffffff;
   padding: 5px 10px;
-  margin: 20px 5px 0;
+  margin: 0 25px 0;
   font-weight: 600;
   font-size: 16px;
+  height: 40%;
 }
 .done {
   background-color: #2abe2a;
@@ -60,7 +66,21 @@
 }
 
 @media screen and (min-width: 780px) {
+  .btn-container {
+    height: -webkit-fill-available;
+    width: 100%;
+    position: absolute;
+    background-color: #030218f0;
+    border-radius: 5px;
+    opacity: 0;
+    margin: 0;
+    transition: 0.3s opacity;
+  }
+  .btn-container:hover {
+    opacity: 100%;
+  }
+
   .btn {
-    width: 27%;
+    width: 20%;
   }
 }

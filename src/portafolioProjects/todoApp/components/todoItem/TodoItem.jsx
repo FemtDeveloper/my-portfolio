@@ -12,9 +12,11 @@ const TodoItem = ({ id, title, description }) => {
   };
   return (
     <div className="todo-container">
-      <h1>{title}</h1>
-      <p>{description}</p>
-      <hr />
+      <div className="task-container">
+        <h1>{title}</h1>
+        <p>{description}</p>
+      </div>
+      {/* <hr /> */}
       <div className="btn-container">
         <button
           className={done ? "btn done" : "btn notDone"}
