@@ -12,7 +12,7 @@ const ProjectLinks = () => {
       <h2>Projects</h2>
       <div className="projects-container">
         <a
-          href="https://femtdeveloper.github.io/concesionario/"
+          href="https://concesionario-t72iz.ondigitalocean.app/"
           target="_blank"
         >
           <motion.article whileHover={{ scale: 1.05 }}>

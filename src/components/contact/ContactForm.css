@@ -1,7 +1,7 @@
 .contact-container {
-  width: 90%;
+  width: 85%;
   border: blue;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3X1u-yJx9B64JWq4T0z6T9weLRv_8HoAuRQ&usqp=CAU");
+  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-38.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,12 +21,21 @@
 .contact-container label {
   color: #fff;
   margin: 5px;
-  font-size: 18px;
+  font-size: 16px;
+}
+.contact-container input {
+  height: 30px;
+}
+.contact-container .btn {
+  font-size: 16px;
+  height: 35px;
+  width: 28%;
+  margin: 0;
 }
 
 @media screen and (min-width: 540px) {
   .contact-container {
-    width: 75%;
+    width: 65%;
     padding: 30px;
   }
 }

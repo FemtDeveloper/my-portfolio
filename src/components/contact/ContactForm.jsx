@@ -37,7 +37,7 @@ const ContactForm = () => {
           <textarea
             name="message"
             id="message"
-            rows="5"
+            rows="4"
             className="form-control"
           />
           <input type="submit" value="Send" className="btn btn-primary mt-3" />
