@@ -40,7 +40,10 @@ const ContactForm = () => {
             rows="4"
             className="form-control"
           />
-          <input type="submit" value="Send" className="btn btn-primary mt-3" />
+          <button type="button" value="Send" className="btn btn-primary mt-3">
+            Send{"     "}
+            <i className="far fa-paper-plane"></i>
+          </button>
         </form>
       </div>
     </>

@@ -8,7 +8,7 @@
 .skill-container {
   margin: 20px 20px 0;
   padding: 0 20px 20px;
-  color: rgb(202, 202, 202);
+  color: #cacaca;
   font-weight: 700;
 }
 h2 {
@@ -17,6 +17,7 @@ h2 {
 
 .about-container p {
   margin-top: 20px;
+  opacity: 60%;
 }
 
 ul {
@@ -26,12 +27,13 @@ ul {
 }
 li {
   margin-top: 10px;
+  opacity: 60%;
 }
 ul li::marker {
-  color: rgb(89, 166, 255);
+  color: #59a6ff;
 }
 hr {
-  border: rgb(89, 166, 255) 2px solid;
+  border: #59a6ff 2px solid;
 }
 
 @media screen and (min-width: 540px) {
