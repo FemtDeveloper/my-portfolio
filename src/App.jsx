@@ -12,19 +12,19 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <AnimatePresence exitBeforeEnter>
-        <Switch location={location} key={location.key}>
-          <Route path="/todoApp">
-            <TodoApp />
-          </Route>
-          <Route path="/calc">
-            <Calc />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </AnimatePresence>
+      {/* <AnimatePresence exitBeforeEnter> */}
+      <Switch location={location} key={location.key}>
+        <Route path="/todoApp">
+          <TodoApp />
+        </Route>
+        <Route path="/calc">
+          <Calc />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+      {/* </AnimatePresence> */}
     </div>
   );
 }

@@ -3,12 +3,14 @@
   flex-direction: column;
   background-color: transparent;
   width: 100%;
+  position: relative;
 }
 .top-button {
   position: sticky;
   height: 40px;
   width: 40px;
   padding: 5px;
+  margin-right: 10px;
   font-size: 20px;
   font-weight: 700;
   border-radius: 50%;
