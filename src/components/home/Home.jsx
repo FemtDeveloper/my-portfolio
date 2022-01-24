@@ -20,6 +20,8 @@ const Home = () => {
       className="home-container"
       exit={{ x: "-100vh", transition: { ease: "easeInOut" } }}
     >
+      <Profile />
+      <Content />
       <motion.a
         href="#Top"
         className="top-button"
@@ -28,8 +30,6 @@ const Home = () => {
       >
         <i className="fas fa-arrow-alt-circle-up"></i>
       </motion.a>
-      <Profile />
-      <Content />
     </motion.div>
   );
 };

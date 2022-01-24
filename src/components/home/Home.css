@@ -14,7 +14,7 @@
   border-radius: 50%;
   text-decoration: none;
   top: 90%;
-  left: 90%;
+  right: 10px;
   z-index: 1;
   color: white;
   background-color: rgba(141, 141, 141, 0.295);
