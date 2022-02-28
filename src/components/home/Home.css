@@ -6,7 +6,7 @@
   position: relative;
 }
 .top-button {
-  position: sticky;
+  position: fixed;
   height: 40px;
   width: 40px;
   padding: 5px;
@@ -29,5 +29,8 @@
 @media screen and (min-width: 640px) {
   .home-container {
     flex-direction: row;
+  }
+  .top-button {
+    position: sticky;
   }
 }

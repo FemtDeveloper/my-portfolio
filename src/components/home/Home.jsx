@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Content from "../content/Content";
 import Profile from "../profile/Profile";
 import "./Home.css";
 
 const Home = () => {
+  const [showButton, setShowButton] = useState(false);
   const buttoVariants = {
     hover: {
       scale: 1.1,
@@ -15,6 +16,24 @@ const Home = () => {
       },
     },
   };
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 200) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    });
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // for smoothly scrolling
+    });
+  };
+
   return (
     <motion.div
       className="home-container"
@@ -22,14 +41,17 @@ const Home = () => {
     >
       <Profile />
       <Content />
-      <motion.a
-        href="#Top"
-        className="top-button"
-        variants={buttoVariants}
-        whileHover={"hover"}
-      >
-        <i className="fas fa-arrow-alt-circle-up"></i>
-      </motion.a>
+      {showButton && (
+        <motion.a
+          // href="#Top"
+          className="top-button"
+          variants={buttoVariants}
+          whileHover={"hover"}
+          onClick={scrollToTop}
+        >
+          <i className="fas fa-arrow-alt-circle-up"></i>
+        </motion.a>
+      )}
     </motion.div>
   );
 };
