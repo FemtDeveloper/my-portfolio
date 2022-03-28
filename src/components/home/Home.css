@@ -4,6 +4,10 @@
   background-color: transparent;
   width: 100%;
   position: relative;
+  background: #1c1b2b;
+  background: linear-gradient(90deg, #14141e, #0f0918 97%);
+  -webkit-box-shadow: 0px -3px 11px 7px #000000b8;
+  box-shadow: 0px -3px 11px 7px #000000b8;
 }
 .top-button {
   position: fixed;
@@ -19,7 +23,7 @@
   right: 10px;
   z-index: 1;
   color: white;
-  background-color: rgba(141, 141, 141, 0.295);
+  background-color: #8d8d8d4b;
 }
 .fa-arrow-alt-circle-up {
   color: white;

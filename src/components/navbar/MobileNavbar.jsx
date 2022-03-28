@@ -13,7 +13,7 @@ const MobileNavbar = () => {
     >
       <Link to="/">Home</Link>
       <a href="#portfolio">Portfolio</a>
-      <a href="">Contact</a>
+      <a href="#contact">Contact</a>
     </motion.div>
   );
 };

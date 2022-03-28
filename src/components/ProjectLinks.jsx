@@ -1,16 +1,17 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
-import Concesionario from "./../imgs/concesionario.jpg";
+import Concesionario from "./../imgs/mockup-concesionario.png";
 import todoApp from "./../imgs/todoapp.jpg";
 import calculadora from "./../imgs/calculadora.png";
 import pokemon from "./../imgs/mockup-pokemon.png";
+
 import "./ProjectLinks.css";
 
 const ProjectLinks = () => {
   return (
     <>
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <div className="projects-container">
         <a
           href="https://concesionario-t72iz.ondigitalocean.app/"

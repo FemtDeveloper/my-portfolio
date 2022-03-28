@@ -2,17 +2,19 @@
   --form-font-color: #b3b3b3;
 }
 .contact-container {
+  background-color: #1c33520c;
   width: 85%;
   border: blue;
   border-radius: 10px;
   padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 -5px 15px #1010108c;
+  margin-bottom: 50px;
+  box-shadow: 0 -5px 15px #10101064;
 }
 .contact-container form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-bottom: 40px;
 }
 .contact-container h1 {
   color: #ffffff;
@@ -25,9 +27,10 @@
 }
 .contact-container input {
   height: 30px;
-  background-color: #222222ed;
+  background-color: transparent;
   color: var(--form-font-color);
 }
+
 .contact-container input:focus {
   background-color: transparent;
   color: #b3b3b3;
@@ -37,7 +40,8 @@
   color: #b3b3b3;
 }
 .contact-container textarea {
-  background-color: #222222ed;
+  background-color: transparent;
+
   color: var(--form-font-color);
 }
 .contact-container .btn {
@@ -51,7 +55,8 @@
 
 @media screen and (min-width: 540px) {
   .contact-container {
-    width: 65%;
+    width: 85%;
     padding: 30px;
+    padding-top: 10px;
   }
 }

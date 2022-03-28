@@ -19,8 +19,8 @@
   padding: 20px;
   margin: 5px;
   margin-top: 290px;
-  border-radius: 5px;
-  background-color: rgba(80, 80, 80, 0.658);
+  border-radius: 15px;
+  background-color: #002c2ba8;
   font-family: "Roboto", sans-serif;
 }
 .header-container--title h2 {
