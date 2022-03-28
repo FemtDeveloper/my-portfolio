@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Concesionario from "./../imgs/concesionario.jpg";
 import todoApp from "./../imgs/todoapp.jpg";
 import calculadora from "./../imgs/calculadora.png";
+import pokemon from "./../imgs/mockup-pokemon.png";
 import "./ProjectLinks.css";
 
 const ProjectLinks = () => {
@@ -27,6 +28,13 @@ const ProjectLinks = () => {
             <h3>Todo App</h3>
           </motion.article>
         </Link>
+        <a href="https://pokemon-app-tau-seven.vercel.app/" target="_blank">
+          <motion.article whileHover={{ scale: 1.05 }}>
+            {" "}
+            <img src={pokemon} alt="" />
+            <h3>Pokemon App</h3>
+          </motion.article>
+        </a>
         <Link to="/calc">
           <motion.article whileHover={{ scale: 1.05 }}>
             {" "}
