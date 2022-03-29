@@ -15,7 +15,7 @@ h1 {
 }
 
 .projects-container a {
-  width: 75%;
+  width: 90%;
   margin: 20px 5px;
   padding: 20px;
   color: white;
@@ -42,5 +42,8 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .projects-container a {
+    width: 75%;
   }
 }
