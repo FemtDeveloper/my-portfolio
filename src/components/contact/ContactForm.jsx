@@ -42,15 +42,6 @@ const ContactForm = () => {
           />
 
           <input type="submit" value="Send" className="btn" />
-          {/* <button
-            type="button"
-            value="Send"
-            className="btn btn-primary mt-4"
-            onClick={sendEmail}
-          >
-            Send{"     "}
-            <i className="far fa-paper-plane"></i>
-          </button> */}
         </form>
       </div>
     </>

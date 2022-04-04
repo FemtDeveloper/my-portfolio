@@ -5,6 +5,7 @@ import Concesionario from "./../imgs/mockup-concesionario.png";
 import todoApp from "./../imgs/todoapp.jpg";
 import calculadora from "./../imgs/calculadora.png";
 import pokemon from "./../imgs/mockup-pokemon.png";
+import countries from "./../imgs/countries.png";
 
 import "./ProjectLinks.css";
 
@@ -34,6 +35,13 @@ const ProjectLinks = () => {
             {" "}
             <img src={pokemon} alt="" />
             <h3>Pokemon App</h3>
+          </motion.article>
+        </a>
+        <a href="https://countries-app-black.vercel.app/" target="_blank">
+          <motion.article whileHover={{ scale: 1.05 }}>
+            {" "}
+            <img src={countries} alt="" />
+            <h3>Countries App</h3>
           </motion.article>
         </a>
         <Link to="/calc">

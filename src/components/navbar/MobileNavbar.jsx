@@ -11,7 +11,7 @@ const MobileNavbar = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
     >
-      <Link to="/">Home</Link>
+      {/* <Link to="/">Home</Link> */}
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
     </motion.div>
