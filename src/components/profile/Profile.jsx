@@ -2,6 +2,7 @@ import React from "react";
 import "./Profile.css";
 import profilePicture from "./../../imgs/profilePicture.jpeg";
 import { motion } from "framer-motion";
+// import CV from "../../../assets/CV-Miranda.pdf";
 
 const Profile = () => {
   return (
@@ -47,6 +48,13 @@ const Profile = () => {
             www.linkedin.com/in/fmirandat
           </motion.a>
         </motion.h5>
+        <a
+          href="../../../assets/CV-Miranda.pdf"
+          download="CV MirandaDev"
+          className="download"
+        >
+          CV Download
+        </a>
       </div>
     </div>
   );
