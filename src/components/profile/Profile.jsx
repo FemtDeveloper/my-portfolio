@@ -48,9 +48,10 @@ const Profile = () => {
           </motion.a>
         </motion.h5>
         <a
-          href="../../../assets/CV-Miranda.pdf"
+          href="https://crimson-myranda-51.tiiny.site/"
           download="CV MirandaDev"
           className="download"
+          target="_blank"
         >
           CV Download
         </a>
