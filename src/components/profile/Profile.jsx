@@ -2,7 +2,6 @@ import React from "react";
 import "./Profile.css";
 import profilePicture from "./../../imgs/profilePicture.jpeg";
 import { motion } from "framer-motion";
-// import CV from "../../../assets/CV-Miranda.pdf";
 
 const Profile = () => {
   return (
