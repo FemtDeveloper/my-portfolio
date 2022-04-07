@@ -1,14 +1,9 @@
 import React from "react";
-import { saveAs } from "file-saver";
 import { motion } from "framer-motion";
 import "./Profile.css";
 import profilePicture from "./../../imgs/profilePicture.jpeg";
 
 const Profile = () => {
-  const saveFile = () => {
-    saveAs("https://crimson-myranda-51.tiiny.site/", "MirandaCV.pdf");
-  };
-
   return (
     <div className="profile-container">
       <div className="fixed-profiled--container">
@@ -52,14 +47,13 @@ const Profile = () => {
             www.linkedin.com/in/fmirandat
           </motion.a>
         </motion.h5>
-        <button
-          onClick={saveFile}
-          // href="../../../assets/CV-Miranda.pdf"
-          // download="CV MirandaDev"
+        <a
+          href="../../../cv-Miranda.pdf"
           className="download"
+          download="MirandaCV"
         >
           CV Download
-        </button>
+        </a>
       </div>
     </div>
   );
