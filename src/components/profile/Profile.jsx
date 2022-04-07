@@ -50,7 +50,7 @@ const Profile = () => {
         <a
           href="../../../cv-Miranda.pdf"
           className="download"
-          download="MirandaCV"
+          download="MirandaCV.pdf"
         >
           CV Download
         </a>
