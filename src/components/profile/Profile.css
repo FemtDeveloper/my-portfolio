@@ -8,7 +8,7 @@
   align-items: center;
 }
 .fixed-profiled--container {
-  top: 60px;
+  top: 30px;
   position: -webkit-sticky;
   position: sticky;
   background: #5c438d0f;
