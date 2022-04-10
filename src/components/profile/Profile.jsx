@@ -48,7 +48,7 @@ const Profile = () => {
           </motion.a>
         </motion.h5>
         <a
-          href="../../../cv-Miranda.pdf"
+          href="../../../cv-miranda.pdf"
           className="download"
           download="MirandaCV.pdf"
         >
