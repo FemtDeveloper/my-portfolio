@@ -47,11 +47,7 @@ const Profile = () => {
             www.linkedin.com/in/fmirandat
           </motion.a>
         </motion.h5>
-        <a
-          href="./cv-miranda.pdf"
-          className="download"
-          download="MirandaCV.pdf"
-        >
+        <a href="./cv-miranda.pdf" className="download" download="MirandaCV">
           CV Download
         </a>
       </div>
