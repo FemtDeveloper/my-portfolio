@@ -53,9 +53,6 @@ const Navbar = () => {
         initial={{ x: 320 }}
         animate={{ x: 0 }}
       >
-        {/* <Link to="/" className="link">
-          Home
-        </Link> */}
         <a href="#portfolio" className="link">
           Projects
         </a>

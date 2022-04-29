@@ -15,7 +15,7 @@ const ProjectLinks = () => {
       <h1>Projects</h1>
       <div className="projects-container">
         <a
-          href="https://concesionario-t72iz.ondigitalocean.app/"
+          href="https://concesionario-8uow2.ondigitalocean.app/"
           target="_blank"
         >
           <motion.article whileHover={{ scale: 1.05 }}>
