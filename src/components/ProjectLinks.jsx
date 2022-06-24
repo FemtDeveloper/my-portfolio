@@ -7,6 +7,7 @@ import calculadora from "./../imgs/calculadora.png";
 import pokemon from "./../imgs/mockup-pokemon.png";
 import countries from "./../imgs/countries.png";
 import encanto from "./../imgs/encanto.png";
+import madrugon from "./../imgs/madrugon.png";
 
 import "./ProjectLinks.css";
 
@@ -15,6 +16,12 @@ const ProjectLinks = () => {
     <>
       <h1>Projects</h1>
       <div className="projects-container">
+        <a href="https://madrugon.herokuapp.com/" target="_blank">
+          <motion.article whileHover={{ scale: 1.05 }}>
+            <img src={madrugon} alt="" />
+            <h3>Tienda en línea</h3>
+          </motion.article>
+        </a>
         <a href="https://www.encantocolombia.co/" target="_blank">
           <motion.article whileHover={{ scale: 1.05 }}>
             <img src={encanto} alt="" />
