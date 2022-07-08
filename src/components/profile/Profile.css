@@ -34,10 +34,11 @@
   margin: 20px 0 10px;
 }
 .profile-container h3 {
-  font-size: 22px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 .fixed-profiled--container a {
+  font-size: 14px;
   color: #fff;
   text-decoration: none;
 }

@@ -48,7 +48,7 @@ const Profile = () => {
           </motion.a>
         </motion.h5>
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/my-images-ed5a3.appspot.com/o/images%2FFMiranda_Resume%20(1).pdf?alt=media&token=a16d2484-cf81-4fdb-84ae-ca98c2c5ec95"
+          href="https://firebasestorage.googleapis.com/v0/b/my-images-ed5a3.appspot.com/o/images%2FFMiranda_Resume.pdf?alt=media&token=b8661073-6578-4b1b-a584-97fcef9a75d2"
           className="download"
           download="MirandaCV.pdf"
           target="_blank"

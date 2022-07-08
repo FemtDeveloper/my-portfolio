@@ -1,4 +1,5 @@
 .projects-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 10px 30px 0;
@@ -36,6 +37,37 @@ h1 {
   width: 80%;
   margin: 0 auto;
 }
+.main-courses-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.main-courses-container .button-slider--container {
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 42px;
+  color: #cbcbcb;
+}
+.slider-container {
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  margin: 0 10px;
+  height: 260px;
+}
+.course-slide {
+  min-width: 240px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.course-slide img {
+  min-height: 100px;
+}
 
 @media screen and (min-width: 540px) {
   .projects-container {
@@ -45,5 +77,11 @@ h1 {
   }
   .projects-container a {
     width: 75%;
+  }
+}
+
+@media screen and (min-width: 826px) {
+  .main-courses-container .button-slider--container {
+    top: 200px;
   }
 }
