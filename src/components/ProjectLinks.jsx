@@ -8,25 +8,25 @@ import pokemon from "./../imgs/mockup-pokemon.png";
 import countries from "./../imgs/countries.png";
 import encanto from "./../imgs/encanto.png";
 import madrugon from "./../imgs/madrugon.png";
+import fenagro from "./../imgs/fenagro.png";
 
 import "./ProjectLinks.css";
 
 const ProjectLinks = () => {
   let slideIndex = 1;
-  showSlides(slideIndex);
 
   // Next/previous controls
-  function plusSlides(n) {
+  const plusSlides = (n) => {
     showSlides((slideIndex += n));
-  }
+  };
 
   // Thumbnail image controls
-  function currentSlide(n) {
+  const currentSlide = (n) => {
     showSlides((slideIndex = n));
-  }
+  };
 
-  function showSlides(n) {
-    let slides = document.getElementsByClassName("course-slide");
+  const showSlides = async (n) => {
+    let slides = await document.getElementsByClassName("course-slide");
     let i;
     if (n > slides.length) {
       slideIndex = 1;
@@ -38,7 +38,8 @@ const ProjectLinks = () => {
       slides[i].style.display = "none";
     }
     slides[slideIndex - 1].style.display = "inline";
-  }
+  };
+  showSlides(slideIndex);
   return (
     <>
       <h1>Projects</h1>
@@ -53,6 +54,12 @@ const ProjectLinks = () => {
           <motion.article whileHover={{ scale: 1.05 }}>
             <img src={encanto} alt="" />
             <h3>Encanto Colombia</h3>
+          </motion.article>
+        </a>
+        <a href="https://www.fenagro.com.co/" target="_blank">
+          <motion.article whileHover={{ scale: 1.05 }}>
+            <img src={fenagro} alt="" />
+            <h3>Federación</h3>
           </motion.article>
         </a>
         <section className="main-courses-container">
