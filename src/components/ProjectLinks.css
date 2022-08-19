@@ -78,6 +78,13 @@ h1 {
   .projects-container a {
     width: 75%;
   }
+  .projects-container .slider-container a {
+    margin: auto;
+  }
+  .slider-container {
+    height: 340px;
+    overflow-x: hidden;
+  }
 }
 
 @media screen and (min-width: 826px) {

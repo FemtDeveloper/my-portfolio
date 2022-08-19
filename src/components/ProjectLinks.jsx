@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Concesionario from "./../imgs/mockup-concesionario.png";
-import todoApp from "./../imgs/todoapp.jpg";
-import calculadora from "./../imgs/calculadora.png";
-import pokemon from "./../imgs/mockup-pokemon.png";
-import countries from "./../imgs/countries.png";
-import encanto from "./../imgs/encanto.png";
-import madrugon from "./../imgs/madrugon.png";
-import fenagro from "./../imgs/fenagro.png";
+import Concesionario from "./../imgs/mockup-concesionario-m.png";
+import todoApp from "./../imgs/todoapp-m.png";
+import calculadora from "./../imgs/calculadora-m.png";
+import pokemon from "./../imgs/mockup-pokemon-m.png";
+import countries from "./../imgs/countries-m.png";
+import encanto from "./../imgs/encanto-m.png";
+import madrugon from "./../imgs/madrugon-m.png";
+import fenagro from "./../imgs/fenagro-m.png";
 
 import "./ProjectLinks.css";
 
@@ -77,14 +77,14 @@ const ProjectLinks = () => {
             >
               <motion.article whileHover={{ scale: 1.05 }}>
                 <img src={Concesionario} alt="" />
-                <h3>Concesionario</h3>
+                <h4>Concesionario</h4>
               </motion.article>
             </a>
             <Link to="/todoApp" className="course-slide" key={2}>
               <motion.article whileHover={{ scale: 1.05 }}>
                 {" "}
                 <img src={todoApp} alt="" />
-                <h3>Todo App</h3>
+                <h4>Todo App</h4>
               </motion.article>
             </Link>
             <a
@@ -96,7 +96,7 @@ const ProjectLinks = () => {
               <motion.article whileHover={{ scale: 1.05 }}>
                 {" "}
                 <img src={pokemon} alt="" />
-                <h3>Pokemon App</h3>
+                <h4>Pokemon App</h4>
               </motion.article>
             </a>
             <a
@@ -108,7 +108,7 @@ const ProjectLinks = () => {
               <motion.article whileHover={{ scale: 1.05 }}>
                 {" "}
                 <img src={countries} alt="" />
-                <h3>Countries App</h3>
+                <h4>Countries App</h4>
               </motion.article>
             </a>
             <Link to="/calc" className="course-slide" key={5}>
