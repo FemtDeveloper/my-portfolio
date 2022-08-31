@@ -9,6 +9,7 @@ import countries from "./../imgs/countries-m.png";
 import encanto from "./../imgs/encanto-m.png";
 import madrugon from "./../imgs/madrugon-m.png";
 import fenagro from "./../imgs/fenagro-m.png";
+import cmerk from "./../imgs/mockup-cmerk.png";
 
 import "./ProjectLinks.css";
 
@@ -44,6 +45,12 @@ const ProjectLinks = () => {
     <>
       <h1>Projects</h1>
       <div className="projects-container">
+        <a href="https://cmerk-production.up.railway.app/" target="_blank">
+          <motion.article whileHover={{ scale: 1.05 }}>
+            <img src={cmerk} alt="" />
+            <h3>Cmerk</h3>
+          </motion.article>
+        </a>
         <a href="https://madrugonmayorista.co/" target="_blank">
           <motion.article whileHover={{ scale: 1.05 }}>
             <img src={madrugon} alt="" />
