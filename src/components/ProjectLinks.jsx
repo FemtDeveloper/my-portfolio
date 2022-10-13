@@ -51,7 +51,7 @@ const ProjectLinks = () => {
             <h3>Cmerk</h3>
           </motion.article>
         </a>
-        <a href="https://madrugonmayorista.co/" target="_blank">
+        <a href="https://www.madrugonmayorista.co/" target="_blank">
           <motion.article whileHover={{ scale: 1.05 }}>
             <img src={madrugon} alt="" />
             <h3>Tienda en línea</h3>
