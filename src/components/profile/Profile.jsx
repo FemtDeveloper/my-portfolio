@@ -48,9 +48,11 @@ const Profile = () => {
           </motion.a>
         </motion.h5>
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/my-images-ed5a3.appspot.com/o/images%2FFelix_Miranda_FullStack_Developer.pdf?alt=media&token=a402b81b-f6e2-4a90-a9f7-3ab7e2f8bb56"
+          // href="https://firebasestorage.googleapis.com/v0/b/my-images-ed5a3.appspot.com/o/images%2FFelix_Miranda_FullStack_Developer.pdf?alt=media&token=a402b81b-f6e2-4a90-a9f7-3ab7e2f8bb56"
           className="download"
-          download="MirandaCV.pdf"
+          href="/resume.pdf"
+          // href={resume}
+          download="Felix_Miranda_FullStack_Developer.pdf"
           target="_blank"
         >
           CV Download
