@@ -7,7 +7,7 @@ import calculadora from "./../imgs/calculadora-m.png";
 import pokemon from "./../imgs/mockup-pokemon-m.png";
 import countries from "./../imgs/countries-m.png";
 import encanto from "./../imgs/encanto-m.png";
-import madrugon from "./../imgs/madrugon-m.png";
+import madrugon from "./../imgs/MM-mockup.png";
 import fenagro from "./../imgs/fenagro-m.png";
 import cmerk from "./../imgs/mockup-cmerk.png";
 

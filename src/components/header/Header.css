@@ -4,7 +4,8 @@
   justify-content: space-between;
   height: 100vh;
   width: 100%;
-  background-image: url(../../imgs/john-petalcurin.jpg);
+  /* background-image: url(../../imgs/john-petalcurin.jpg); */
+  background-image: url(../../imgs/portada.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
