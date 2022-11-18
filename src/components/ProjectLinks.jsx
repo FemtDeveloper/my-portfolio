@@ -10,6 +10,9 @@ import encanto from "./../imgs/encanto-m.png";
 import madrugon from "./../imgs/MM-mockup.png";
 import fenagro from "./../imgs/fenagro-m.png";
 import cmerk from "./../imgs/mockup-cmerk.png";
+import prisma from "./../imgs/prisma.png";
+import postgresql from "./../imgs/postgresql.png";
+import nextjs from "./../imgs/nextjs.png";
 
 import "./ProjectLinks.css";
 
@@ -50,24 +53,82 @@ const ProjectLinks = () => {
             <img src={cmerk} alt="" />
             <h3>Cmerk</h3>
           </motion.article>
+
+          <div className="tech-container">
+            <div className="techs">
+              <span>React Js</span>
+            </div>
+            <div className="techs">
+              <span>Next Js</span>
+            </div>
+            <div className="techs">
+              <span>PostgreSQL</span>
+            </div>
+            <div className="techs">
+              <span>Prisma</span>
+            </div>
+            <div className="techs">
+              <span>Redux Toolkit</span>
+            </div>
+            <div className="techs">
+              <span>Material UI</span>
+            </div>
+          </div>
         </a>
         <a href="https://www.madrugonmayorista.co/" target="_blank">
           <motion.article whileHover={{ scale: 1.05 }}>
             <img src={madrugon} alt="" />
-            <h3>Tienda en línea</h3>
+            <h3>Madrugón Mayorista</h3>
           </motion.article>
+          <div className="tech-container">
+            <div className="techs">
+              <span>React Js</span>
+            </div>
+            <div className="techs">
+              <span>Next Js</span>
+            </div>
+            <div className="techs">
+              <span>PostgreSQL</span>
+            </div>
+
+            <div className="techs">
+              <span>Prisma</span>
+            </div>
+            <div className="techs">
+              <span>Redux Toolkit</span>
+            </div>
+            <div className="techs">
+              <span>Material UI</span>
+            </div>
+          </div>
         </a>
         <a href="https://www.encantocolombia.co/" target="_blank">
           <motion.article whileHover={{ scale: 1.05 }}>
             <img src={encanto} alt="" />
             <h3>Encanto Colombia</h3>
           </motion.article>
+          <div className="tech-container">
+            <div className="techs">
+              <span>JavaScript</span>
+            </div>
+            <div className="techs">
+              <span>React Js</span>
+            </div>
+          </div>
         </a>
         <a href="https://www.fenagro.com.co/" target="_blank">
           <motion.article whileHover={{ scale: 1.05 }}>
             <img src={fenagro} alt="" />
             <h3>Federación</h3>
           </motion.article>
+          <div className="tech-container">
+            <div className="techs">
+              <span>JavaScript</span>
+            </div>
+            <div className="techs">
+              <span>React Js</span>
+            </div>
+          </div>
         </a>
         <section className="main-courses-container">
           <h1>Learning projects</h1>

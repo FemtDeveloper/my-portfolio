@@ -16,6 +16,25 @@
   color: #fff;
   font-size: 10px;
 }
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.techs {
+  display: flex;
+  background-color: #173c56;
+  color: #ededed;
+  font-size: 14px;
+  margin: 5px 10px;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.logo-tech {
+  max-width: 40px;
+  height: 40px;
+}
 
 /* @media screen and (min-width: 540px) {
   .App {
