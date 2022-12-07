@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../../imgs/programacion.png";
+// import logo from "../../imgs/logo-d.png";
+import logo from "../../imgs/d-logo.png";
 import MobileNavbar from "./MobileNavbar";
 import { motion } from "framer-motion";
 
@@ -31,6 +32,7 @@ const Navbar = () => {
           variants={navbarVariants}
           initial="hidden"
           animate="visible"
+          style={{ height: "40px", marginBottom: "10px" }}
         />
       </Link>
       <motion.div

@@ -9,22 +9,17 @@ import countries from "./../imgs/countries-m.png";
 import encanto from "./../imgs/encanto-m.png";
 import madrugon from "./../imgs/MM-mockup.png";
 import fenagro from "./../imgs/fenagro-m.png";
-import cmerk from "./../imgs/mockup-cmerk.png";
-import prisma from "./../imgs/prisma.png";
-import postgresql from "./../imgs/postgresql.png";
-import nextjs from "./../imgs/nextjs.png";
+import cmerk from "./../imgs/cmerk.png";
 
 import "./ProjectLinks.css";
 
 const ProjectLinks = () => {
   let slideIndex = 1;
 
-  // Next/previous controls
   const plusSlides = (n) => {
     showSlides((slideIndex += n));
   };
 
-  // Thumbnail image controls
   const currentSlide = (n) => {
     showSlides((slideIndex = n));
   };
@@ -48,7 +43,7 @@ const ProjectLinks = () => {
     <>
       <h1>Projects</h1>
       <div className="projects-container">
-        <a href="https://cmerk-production.up.railway.app/" target="_blank">
+        <a href="https://www.c-merk.com.co/" target="_blank">
           <motion.article whileHover={{ scale: 1.05 }}>
             <img src={cmerk} alt="" />
             <h3>Cmerk</h3>
@@ -131,7 +126,7 @@ const ProjectLinks = () => {
           </div>
         </a>
         <section className="main-courses-container">
-          <h1>Learning projects</h1>
+          <h1>Practice projects</h1>
           <div className="button-slider--container">
             <span onClick={() => plusSlides(-1)}>{"<"}</span>
             <span onClick={() => plusSlides(1)}>{">"}</span>
