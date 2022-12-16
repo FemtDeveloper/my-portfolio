@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-// import logo from "../../imgs/logo-d.png";
 import logo from "../../imgs/d-logo.png";
-import MobileNavbar from "./MobileNavbar";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [showMobile, setShowMobile] = useState(false);
+  const [isActive, setIsActive] = useState("");
   const handlerClick = () => {
-    setShowMobile(!showMobile);
+    // setShowMobile(!showMobile);
+    setIsActive(!isActive);
   };
   const navbarVariants = {
     hidden: {
@@ -42,13 +42,14 @@ const Navbar = () => {
       >
         <i className={showMobile ? "fas fa-times" : "fas fa-bars"}></i>
       </motion.div>
-      {showMobile && (
-        <div className="mobile-navbar" onClick={handlerClick}>
-          <Link to="/">Home</Link>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
-        </div>
-      )}
+      <div
+        className={`mobile-navbar${isActive ? " active" : ""}`}
+        onClick={handlerClick}
+      >
+        <Link to="/">Home</Link>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
       <motion.div
         className="links-container"
         transition={{ delay: 1, duration: 2 }}

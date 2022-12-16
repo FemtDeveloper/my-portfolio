@@ -1,11 +1,21 @@
 .mobile-navbar {
   position: absolute;
   display: flex;
-  flex-direction: column;
+  left: 0;
+  right: 0;
   margin-top: 255px;
-  width: 90%;
+  transform: translateY(-130%);
+  flex-direction: column;
+  opacity: 0;
   background-color: rgb(60 34 103 / 55%);
+  transition: 250ms;
 }
+
+.mobile-navbar.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .mobile-navbar a {
   line-height: 30px;
   color: white;
